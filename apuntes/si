@@ -120,32 +120,7 @@ li a {
     border-radius: 0%;
 }
 
-.ventaja{
-    display: inline-block;
-    width: 16%;
-    height: 16%;
-    margin: 1.8%;
-    text-align: center;
-    background-color: #adc9cc;
-    transition: transform 0.5s ease;
-}
 
-.ventaja:hover{
-    border-radius: 20%;
-}
-
-.ventajatxt{
-    font-size: 25px;
-    font-weight: 600;
-    font-variant: small-caps;
-}
-
-.ventajatxt2{
-    margin-top: -5%;
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-bottom: 10%;
-}
 
 .distro2{
     width: 132px;
@@ -159,58 +134,4 @@ li a {
 
 .distro2:hover {
     transform: scale(1.08);
-}
-
-
-
-.distro3{
-    width: 132px;
-    height: 132px;
-    margin-left: 5.5%;
-    margin-right: 5.5%;
-    margin-bottom: 5.5%;
-    border-radius: 0%;
-    transition: transform 0.5s ease;
-}
-
-.distro3:hover {
-    transform: scale(1.08);
-}
-
-.fsf{
-    display: inline-block;
-    width: 30%;
-    margin-left: 13.33%;
-    margin-right: 6.66%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: #adc9cc;
-    border-radius: 0%;
-    padding-bottom: 1%;
-    
-}
-
-
-.fssf{
-    display: inline-block;
-    width: 30%;
-    margin-left: 6%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: #adc9cc;
-    border-radius: 0%;
-    padding-bottom: 1%;
-}
-
-.fsfp{
-    font-weight: bold;
-    font-size: larger;
-    margin-bottom: -1%;
-    text-align: center;
-}
-
-.fsfp2{
-    text-align: left;
-    font-size:large;
-    margin-left: 10%;
 }
