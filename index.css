@@ -132,6 +132,8 @@ li a {
 
 .ventaja:hover{
     border-radius: 20%;
+    border: 1px solid rgb(100, 108, 179); 
+    margin: 1.73%;
 }
 
 .ventajatxt{
