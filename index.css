@@ -16,6 +16,31 @@ body{
     transform: scale(1.08);
 }
 
+.name{
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.namediv{
+    margin-top: -5%;
+    margin-bottom: 10%;
+    background-color: #adc9cc;
+}
+
+.distro5{
+    width: 132px;
+    height: 132px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    transition: transform 0.5s ease;
+    border-radius: 10%;
+}
+
+.distro5:hover {
+    transform: scale(1.08);
+}
+
 .titulo{
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -101,6 +126,7 @@ li a {
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin-top: 2%;
 
 }
 
@@ -131,9 +157,9 @@ li a {
 }
 
 .ventaja:hover{
-    border-radius: 20%;
-    border: 1px solid rgb(100, 108, 179); 
-    margin: 1.73%;
+    border-radius: 5%;
+    transform: scale(1.08);
+
 }
 
 .ventajatxt{
@@ -189,7 +215,10 @@ li a {
     background-color: #adc9cc;
     border-radius: 0%;
     padding-bottom: 1%;
-    
+    transition: transform 0.5s ease;
+}
+.fsf:hover{
+    transform: scale(1.03);
 }
 
 
@@ -202,6 +231,12 @@ li a {
     background-color: #adc9cc;
     border-radius: 0%;
     padding-bottom: 1%;
+    transition: transform 0.5s ease;
+
+}
+
+.fssf:hover{
+    transform: scale(1.03);
 }
 
 .fsfp{
@@ -215,4 +250,29 @@ li a {
     text-align: left;
     font-size:large;
     margin-left: 10%;
+}
+
+.otheralt{
+    width: 4%;
+    height: 4%;
+    transition: transform 0.5s ease;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 50%;
+    margin-top: 0.5%;
+    margin-bottom: 0.1%;
+}
+
+.otheralt:hover{
+    transform: scale(1.08);
+}
+
+.otherfree{
+    background-color: #adc9cc;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
 }
