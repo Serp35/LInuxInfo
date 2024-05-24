@@ -146,6 +146,19 @@ li a {
     border-radius: 0%;
 }
 
+
+.alternativee{
+    display: inline-block;
+    margin-left: 2.73%;
+    margin-right: 2.74%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: #adc9cc;
+    border-radius: 0%;
+    width: 300px;
+}
+
 .ventaja{
     display: inline-block;
     width: 16%;
@@ -275,4 +288,25 @@ li a {
     display: inline-block;
     text-align: center;
     align-items: center;
+}
+
+
+.otheraltt{
+    width: 20%;
+    height: 20%;
+    transition: transform 0.5s ease;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 50%;
+    margin-top: -3%;
+    margin-bottom: 2%;
+}
+
+.otheraltt:hover{
+    transform: scale(1.08);
+}
+
+.contenedor{
+    align-items: center;
+    text-align: center;
 }
