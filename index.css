@@ -78,16 +78,34 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #adc9cc;
+    margin-top: -0.45%;
+    margin-left: -2%;
+    margin-right: -2%;
+}
+
+.logoimg{
+    width: 7%;
+    height: 7%;
+    margin-top: 0.6%;
+    margin-bottom: -2%;
+    transition: transform 0.5s ease;
+
+}
+
+.logoimg:hover{
+    transform: scale(1.08);
+
+}
+
+.logoli{
+    float: left;
+    margin-left: 2%;
 }
 
 li {
-    float: left;
+    float: right;
 }
 
-li a {
-    display: block;
-    padding: 14px 16px;
-}
 
 .a {
     display: block;
@@ -150,7 +168,7 @@ li a {
 .alternativee{
     display: inline-block;
     margin-left: 2.73%;
-    margin-right: 2.74%;
+    margin-right: 2.73%;
     margin-top: 2%;
     margin-bottom: 2%;
     text-align: center;
@@ -289,7 +307,6 @@ li a {
     text-align: center;
     align-items: center;
 }
-
 
 .otheraltt{
     width: 20%;
